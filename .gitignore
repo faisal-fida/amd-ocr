@@ -1,5 +1,7 @@
 samples/
 samples_raw/
+hard/
+*.ttf
 output/
 __pycache__/
 *.pdf
