@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1115"/>
+      <stop offset="1" stop-color="#1b1f27"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="12" height="630" fill="#ed1c24"/>
+
+  <text x="80" y="110" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ed1c24" font-weight="700" letter-spacing="3">AMD AI ACADEMY  ·  MINI-CHALLENGE 2</text>
+  <text x="80" y="195" font-family="Helvetica, Arial, sans-serif" font-size="62" fill="#ffffff" font-weight="700">Reading Plates and Road Signs</text>
+  <text x="80" y="268" font-family="Helvetica, Arial, sans-serif" font-size="62" fill="#ffffff" font-weight="700">with Qwen3-VL on AMD ROCm</text>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="80" y="340" width="330" height="170" rx="14" fill="#232833"/>
+    <text x="110" y="420" font-size="64" fill="#ffffff" font-weight="700">10/10</text>
+    <text x="110" y="470" font-size="24" fill="#9aa3b2">sample images</text>
+
+    <rect x="435" y="340" width="330" height="170" rx="14" fill="#232833"/>
+    <text x="465" y="420" font-size="64" fill="#ffffff" font-weight="700">0.35 s</text>
+    <text x="465" y="470" font-size="24" fill="#9aa3b2">max per image (limit 30 s)</text>
+
+    <rect x="790" y="340" width="330" height="170" rx="14" fill="#232833"/>
+    <text x="820" y="420" font-size="64" fill="#ffffff" font-weight="700">18.4 GB</text>
+    <text x="820" y="470" font-size="24" fill="#9aa3b2">peak VRAM on MI300X</text>
+  </g>
+
+  <text x="80" y="575" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#9aa3b2">Load-once server · GPU warm-up · packaging pitfalls and fixes</text>
+</svg>
