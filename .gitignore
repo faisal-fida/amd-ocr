@@ -1,0 +1,6 @@
+samples/
+samples_raw/
+output/
+__pycache__/
+*.pdf
+.env
